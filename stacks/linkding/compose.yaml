@@ -1,0 +1,11 @@
+services:
+  linkding:
+    image: sissbruecker/linkding:latest
+    container_name: linkding
+    restart: unless-stopped
+    ports:
+      - "9091:9090"
+    environment:
+      - LD_CSRF_TRUSTED_ORIGINS=https://links.umrkimy.dev
+    volumes:
+      - ./data:/etc/linkding/data

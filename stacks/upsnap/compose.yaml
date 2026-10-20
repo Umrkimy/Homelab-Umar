@@ -1,0 +1,10 @@
+services:
+  upsnap:
+    image: ghcr.io/seriousm4x/upsnap:5
+    container_name: upsnap
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Kuala_Lumpur
+    volumes:
+      - ./data:/app/pb_data

@@ -1,0 +1,8 @@
+.env
+data/
+appdata/
+conf/
+work/
+config/
+letsencrypt/
+homelab-handoff.md
