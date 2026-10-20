@@ -2,6 +2,8 @@
 
 hi, this is my homelab. it's an old asus laptop with a broken hinge that i turned into a home server instead of throwing it away. it runs my photos, ad blocking, a dashboard and a bunch of other stuff, all in docker.
 
+![homarr dashboard](screenshots/homarr.jpg)
+
 ## the hardware
 
 - asus n56vz, i5-3210m, 8gb ram
